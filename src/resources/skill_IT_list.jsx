@@ -5,16 +5,11 @@ function getITSkills() {
     { name: 'JavaScript', level: 'Advanced' },
     { name: 'C', level: 'Intermediate' },
     { name: 'HTML5', level: 'Advanced' },
-    { name: 'CSS', level: 'Advanced' },
     { name: 'React.js', level: 'Intermediate' },
     { name: 'Express.js', level: 'Intermediate' },
-    { name: 'Node.js', level: 'Intermediate' },
-    { name: 'Bootstrap', level: 'Intermediate' },
     { name: 'Git', level: 'Advanced' },
-    { name: 'GitHub', level: 'Advanced' },
-    { name: 'MATLAB', level: 'Beginner' },
-    { name: 'Simulink', level: 'Beginner' },
-    { name: 'Arduino', level: 'Intermediate' },
+    { name: 'MongoDB', level: 'Intermediate' },
+    { name: 'Data Structures and Algorithms', level: 'Advanced' },   
   ];
   return skills;
 }

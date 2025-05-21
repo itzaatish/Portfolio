@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const Footer = () => {
   return (
@@ -10,8 +11,8 @@ const Footer = () => {
 
           {/* About Section */}
           <div className="col-md-4 mb-4">
-            <h5 className="text-uppercase">Your Name</h5>
-            <p>Full-Stack Developer | Passionate about building elegant and functional web apps.</p>
+            <h5 className="text-uppercase">Aatish Kumar</h5>
+            <p>Full-Stack Developer | Problem Solver | Passionate about building elegant and functional web apps.</p>
           </div>
 
           {/* Navigation Links */}
@@ -28,15 +29,15 @@ const Footer = () => {
           {/* Contact & Social */}
           <div className="col-md-4 mb-4">
             <h5 className="text-uppercase">Contact</h5>
-            <p>Email: <a href="mailto:youremail@example.com" className="text-white">youremail@example.com</a></p>
+            <p>Email: <a href="mailto:byjsr71@gmail.com" className="text-white">byjsr71@gmail.com</a></p>
             <div>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-white me-3">
+              <a href="https://github.com/itzaatish" target="_blank" rel="noopener noreferrer" className="text-white me-3">
                 <i className="bi bi-github fs-4"></i>
               </a>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-white me-3">
+              <a href="https://www.linkedin.com/in/aatish-kumar-156528221" target="_blank" rel="noopener noreferrer" className="text-white me-3">
                 <i className="bi bi-linkedin fs-4"></i>
               </a>
-              <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" className="text-white me-3">
+              <a href="#" target="_blank" rel="noopener noreferrer" className="text-white me-3">
                 <i className="bi bi-twitter fs-4"></i>
               </a>
             </div>
@@ -45,7 +46,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center mt-3">
-          <small>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</small>
+          <small>&copy; {new Date().getFullYear()} AK . All rights reserved.</small>
         </div>
       </div>
     </footer>

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FaCheckCircle } from 'react-icons/fa';
-import SkillCards from './experince_cards';
+import {SkillCards , SkillCardsNON} from './experince_cards';
 
 
 
-const ExperienceSection = (props) => {
+const ExperienceSection = () => {
   return (
     <section id="experience" className="py-5 bg-light">
       <Container>
@@ -21,7 +21,7 @@ const ExperienceSection = (props) => {
                 <Card.Title className="text-center fw-bold mb-4">
                   IT Skills
                 </Card.Title>
-                <SkillCards/>, 
+                <SkillCards/>
               </Card.Body>
             </Card>
           </Col>
@@ -33,7 +33,7 @@ const ExperienceSection = (props) => {
                 <Card.Title className="text-center fw-bold mb-4">
                   Non IT Skills
                 </Card.Title>
-                
+                  <SkillCardsNON/>
               </Card.Body>
             </Card>
           </Col>

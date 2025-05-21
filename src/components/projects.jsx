@@ -1,19 +1,20 @@
 import React from 'react';
-import Image from '../resources/abc.jpg'; 
+import img2 from '../resources/project2.webp'; 
+import img1 from '../resources/project1.jpg'
 const projects = [
   {
-    title: 'Project One',
-    description: 'Better Communication with Each Other',
-    image: '../resources/abc.jpg', 
-    github: 'https://github.com/yourname/project1',
-    demo: 'https://demo-link.com/project1'
+    title: 'Real Estate App',
+    description: 'A Real Estate App that helps you find your dream home',
+    image: img1, 
+    github: 'https://github.com/itzaatish/Real_estate',
+    demo: '#'
   },
   {
-    title: 'Project Two',
-    description: 'Stop Scrolling! I have something to tell you',
-    image: '../resources/abc.jpg',
-    github: 'https://github.com/yourname/project2',
-    demo: 'https://demo-link.com/project2'
+    title: 'Task Manager',
+    description: 'A Task Manager App that helps you manage your tasks',
+    image: img2,
+    github: 'https://github.com/itzaatish/Task-Manager',
+    demo: '#'
   },
 ];
 
@@ -28,7 +29,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div key={index} className="col-md-4 mb-4">
             <div className="card h-100 shadow rounded-4 p-3">
-              <img src={Image} alt={project.title} className="card-img-top rounded-4 mb-3" />
+              <img src={project.image} alt={project.title} className="card-img-top rounded-4 mb-3" />
               <h5 className="fw-bold">{project.title}</h5>
               <p className="text-muted">{project.description}</p>
               <div className="d-flex justify-content-center gap-3 mt-auto">

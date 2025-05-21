@@ -1,8 +1,10 @@
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
 import getITSkills from '../resources/skill_IT_list';
+import skill_nonIT_list from '../resources/skills_NonIT_list';
 
 const skills = getITSkills();
+const skills_nonIT = skill_nonIT_list();
 
 // Child component
 const SkillItems = ({ name, level }) => (
@@ -16,7 +18,7 @@ const SkillItems = ({ name, level }) => (
 );
 
 // Main component
-const SkillCards = () => {
+export const SkillCards = () => {
   return (
     <div className="d-flex flex-wrap assist-center justify-content-center">
       {skills.map((item, index) => (
@@ -26,4 +28,14 @@ const SkillCards = () => {
   );
 };
 
-export default SkillCards;
+export const SkillCardsNON = () => {
+  return (
+    <div className="d-flex flex-wrap assist-center justify-content-center">
+      {skills_nonIT.map((item, index) => (
+        <SkillItems key={index} name={item.name} level={item.level} />
+      ))}
+    </div>
+  );
+};
+
+

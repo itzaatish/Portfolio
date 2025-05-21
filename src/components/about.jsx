@@ -30,7 +30,7 @@ const About = () => {
                 <div className="border rounded-4 text-center p-4 h-100">
                   <div className="fs-2 mb-2">🏅</div>
                   <h5 className="fw-bold mb-1">Experience</h5>
-                  <small>2+ years<br />Frontend Development</small>
+                  <small><br />Full-Stack-Development</small>
                 </div>
               </div>
 
@@ -39,16 +39,20 @@ const About = () => {
                 <div className="border rounded-4 text-center p-4 h-100">
                   <div className="fs-2 mb-2">👥</div>
                   <h5 className="fw-bold mb-1">Education</h5>
-                  <small>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</small>
+                  <small>B-Tech 4th year - NIT Agartala<br />Higher Secondary CBSE</small>
                 </div>
               </div>
             </div>
 
             {/* Paragraph */}
             <p className="text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis reprehenderit
-              et laborum, dolore eum quod voluptate exercitationem nobis, nihil esse debitis
-              maxime facere minus sint delectus. Eligendi illum libero cum corrupti.
+              Hey! I’m Aatish Kumar, a B.Tech student in Electronics and Communication Engineering at NIT Agartala. I enjoy solving real-world problems through code—whether it’s building full-stack web applications or optimizing C++ algorithms to handle data efficiently.
+            <p/>
+            <p className="text-muted"></p>
+              I’ve developed strong problem-solving skills in Data Structures and Algorithms. I’m also well-versed in both frontend  and backend development, and I love building clean, responsive, and scalable web apps.
+            <p/>
+            <p className="text-muted"></p>
+              Beyond software, I’m deeply interested in core electronics like VLSI, optical fiber communication, and network systems. Currently preparing for placements, I’m focused on combining my knowledge in software and electronics to create impactful solutions.
             </p>
           </div>
         </div>

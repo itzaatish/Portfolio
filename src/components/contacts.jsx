@@ -28,7 +28,7 @@ export default function Contact() {
           {/* Email */}
           <div className="d-flex align-items-center gap-2">
             <i className="bi bi-envelope-fill"></i>
-            <div className="text-decoration-none">byjsr71@gmail.com</div>
+             <a href="mailto:byjsr71@gmail.com" className="text-dark">byjsr71@gmail.com</a>
           </div>
 
           {/* Divider */}
