@@ -1,4 +1,4 @@
-import Image_profile from '../resources/abc.jpg';
+import Image_profile from '../resources/img8.jpg';
 import {Link} from 'react-router-dom';
 
 export default function Home() {
