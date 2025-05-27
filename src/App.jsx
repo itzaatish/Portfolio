@@ -9,7 +9,7 @@ import Projects from './components/projects';
 
 const router = createBrowserRouter([
   {
-    path: "/Portfolio",
+    path: "/",
     element: <Layout />,
     errorElement: <div>Page not found</div>,
     children: [
