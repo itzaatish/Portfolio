@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './outlet'
 import Home from './components/Home';
 import About from './components/About'
@@ -7,7 +7,7 @@ import ExperienceSection from './components/experience';
 import Contact from './components/contacts';
 import Projects from './components/projects';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Layout />,
