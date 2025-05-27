@@ -1,11 +1,17 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 
+
+const serviceID = process.env.Portfolio_emailjs_SERVICE_ID;
+const templateID = process.env.Portfolio_emailjs_TEMPLATE_ID;
+const userID = process.env.Portfolio_emailjs_USER_ID;
+// Ensure these environment variables are set in your .env file or hosting platform
+
 function sendemails(message){
     message.preventDefault();
     console.log(message.target); 
-
-    emailjs.sendForm('service_46wh1oa','template_hqow95f',message.target, 'FLrKG0BxNPH72ZSE9')
+  
+    emailjs.sendForm(serviceID,templateID,message.target,userID)
     .then((result) => {
         console.log("message sent")
     },(error) => {

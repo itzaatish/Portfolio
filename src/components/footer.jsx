@@ -37,7 +37,7 @@ const Footer = () => {
               <a href="https://www.linkedin.com/in/aatish-kumar-156528221" target="_blank" rel="noopener noreferrer" className="text-white me-3">
                 <i className="bi bi-linkedin fs-4"></i>
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="text-white me-3">
+              <a href="" target="_blank" rel="noopener noreferrer" className="text-white me-3">
                 <i className="bi bi-twitter fs-4"></i>
               </a>
             </div>
